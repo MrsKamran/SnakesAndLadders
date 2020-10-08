@@ -19,7 +19,7 @@ Enjoy!
 
 
 ## Technologies Used: 
-HTML , CSS, JavaScript,Flexbox, Scalable Vector Graphics (SVG)
+HTML , CSS, JavaScript, Flexbox, Scalable Vector Graphics (SVG)
 
 ## Getting Started:
 
@@ -28,11 +28,11 @@ HTML , CSS, JavaScript,Flexbox, Scalable Vector Graphics (SVG)
 ### Instructions:
 
 This game offers 3 options:
-<ol>
-	<li>Option 1 is when one player plays a game alone.</li>
-	<li>Option 2 is when two players play and the game ends when one of them wins.</li>
-	<li>Option 3 is when one player plays the game with computer.</li>
-</ol>
+<ul>
+	<li>Option 1 is selected when one player plays a game alone.</li>
+	<li>Option 2 is chisen when two players play and the game ends when one of them wins.</li>
+	<li>Option 3 is for when one player plays the game with computer.</li>
+</ul>
 So you should choose the number of players accordingly. The choose player input box will be disabled once you choose it.
 
 Once the number of players is chosen, you’ll see choose token color option. Choose a color of your liking by clicking on the color palatte. If Option 2 is chosen and there are two players, each one of them can choose a different color. For option three, you’ll choose the color for player’s token and computer will choose a color randomly.
