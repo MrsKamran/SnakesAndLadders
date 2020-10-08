@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Snakes and Ladders</title>
+	<link href="CSS/style.css" rel="stylesheet" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+
+	</script>
+</head>
+
+<body>
+	<svg class="snakeladders" viewBox="0 0 1200 255", preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject x="0" y="0" width="1200" height="700">
+		<div class="game" xmlns="http://www.w3.org/1999/xhtml">
+		<div id="game-panel-1" class="game-board game-panel">
+			<div id="board-row-10" class="board-row">
+				<div id="t100" class="tile">100</div>
+				<div id="t99" class="tile">99</div>
+				<div id="t98" class="tile">98</div>
+				<div id="t97" class="tile">97</div>
+				<div id="t96" class="tile">96</div>
+				<div id="t95" class="tile">95</div>
+				<div id="t94" class="tile">94</div>
+				<div id="t93" class="tile">93</div>
+				<div id="t92" class="tile">92</div>
+				<div id="t91" class="tile">91</div>
+			</div>
+			<div id="board-row-9" class="board-row">
+				<div id="t81" class="tile">81</div>
+				<div id="t82" class="tile">82</div>
+				<div id="t83" class="tile">83</div>
+				<div id="t84" class="tile">84</div>
+				<div id="t85" class="tile">85</div>
+				<div id="t86" class="tile">86</div>
+				<div id="t87" class="tile">87</div>
+				<div id="t88" class="tile">88</div>
+				<div id="t89" class="tile">89</div>
+				<div id="t90" class="tile">90</div>
+			</div>
+			<div id="board-row-8" class="board-row">
+				<div id="t80" class="tile">80</div>
+				<div id="t79" class="tile">79</div>
+				<div id="t78" class="tile">78</div>
+				<div id="t77" class="tile">77</div>
+				<div id="t76" class="tile">76</div>
+				<div id="t75" class="tile">75</div>
+				<div id="t74" class="tile">74</div>
+				<div id="t73" class="tile">73</div>
+				<div id="t72" class="tile">72</div>
+				<div id="t71" class="tile">71</div>
+			</div>
+			<div id="board-row-7" class="board-row">
+				<div id="t61" class="tile">61</div>
+				<div id="t62" class="tile">62</div>
+				<div id="t63" class="tile">63</div>
+				<div id="t64" class="tile">64</div>
+				<div id="t65" class="tile">65</div>
+				<div id="t66" class="tile">66</div>
+				<div id="t67" class="tile">67</div>
+				<div id="t68" class="tile">68</div>
+				<div id="t69" class="tile">69</div>
+				<div id="t70" class="tile">70</div>
+			</div>
+			<div id="board-row-6" class="board-row">
+				<div id="t60" class="tile">60</div>
+				<div id="t59" class="tile">59</div>
+				<div id="t58" class="tile">58</div>
+				<div id="t57" class="tile">57</div>
+				<div id="t56" class="tile">56</div>
+				<div id="t55" class="tile">55</div>
+				<div id="t54" class="tile">54</div>
+				<div id="t53" class="tile">53</div>
+				<div id="t52" class="tile">52</div>
+				<div id="t51" class="tile">51</div>
+			</div>
+			<div id="board-row-5" class="board-row">
+				<div id="t41" class="tile">41</div>
+				<div id="t42" class="tile">42</div>
+				<div id="t43" class="tile">43</div>
+				<div id="t44" class="tile">44</div>
+				<div id="t45" class="tile">45</div>
+				<div id="t46" class="tile">46</div>
+				<div id="t47" class="tile">47</div>
+				<div id="t48" class="tile">48</div>
+				<div id="t49" class="tile">49</div>
+				<div id="t50" class="tile">50</div>
+			</div>
+			<div id="board-row-4" class="board-row">
+				<div id="t40" class="tile">40</div>
+				<div id="t39" class="tile">39</div>
+				<div id="t38" class="tile">38</div>
+				<div id="t37" class="tile">37</div>
+				<div id="t36" class="tile">36</div>
+				<div id="t35" class="tile">35</div>
+				<div id="t34" class="tile">34</div>
+				<div id="t33" class="tile">33</div>
+				<div id="t32" class="tile">32</div>
+				<div id="t31" class="tile">31</div>
+			</div>
+			<div id="board-row-3" class="board-row">
+				<div id="t21" class="tile">21</div>
+				<div id="t22" class="tile">22</div>
+				<div id="t23" class="tile">23</div>
+				<div id="t24" class="tile">24</div>
+				<div id="t25" class="tile">25</div>
+				<div id="t26" class="tile">26</div>
+				<div id="t27" class="tile">27</div>
+				<div id="t28" class="tile">28</div>
+				<div id="t29" class="tile">29</div>
+				<div id="t30" class="tile">30</div>
+			</div>
+			<div id="board-row-2" class="board-row">
+				<div id="t20" class="tile">20</div>
+				<div id="t19" class="tile">19</div>
+				<div id="t18" class="tile">18</div>
+				<div id="t17" class="tile">17</div>
+				<div id="t16" class="tile">16</div>
+				<div id="t15" class="tile">15</div>
+				<div id="t14" class="tile">14</div>
+				<div id="t13" class="tile">13</div>
+				<div id="t12" class="tile">12</div>
+				<div id="t11" class="tile">11</div>
+			</div>
+			<div id="board-row-1" class="board-row">
+				<div id="t1" class="tile">1</div>
+				<div id="t2" class="tile">2</div>
+				<div id="t3" class="tile">3</div>
+				<div id="t4" class="tile">4</div>
+				<div id="t5" class="tile">5</div>
+				<div id="t6" class="tile">6</div>
+				<div id="t7" class="tile">7</div>
+				<div id="t8" class="tile">8</div>
+				<div id="t9" class="tile">9</div>
+				<div id="t10" class="tile">10</div>
+			
+	</div>
+	<img src="Images/Snake1.gif" id="snake1" class="responsive"/>
+	<img src="Images/snake2.png" id="snake2" class="responsive"/>
+	<img src="Images/Snake3.gif" id="snake3" class="responsive"/>
+	<img src="Images/snake4.png" id="snake4" class="responsive"/>
+	<img src="Images/snake5.png" id="snake5" class="responsive"/>
+	<img src="Images/snake6.png" id="snake6" class="responsive"/>
+	<img src="Images/Ladder1.gif" id="ladder1" class="responsive"/>
+	<img src="Images/ladder2.png" id="ladder2" class="responsive"/>
+	<img src="Images/Ladder1.gif" id="ladder3" class="responsive"/>
+	<img src="Images/ladder2.png" id="ladder4" class="responsive"/>
+	<img src="Images/Ladder1.gif" id="ladder5" class="responsive"/>
+	<img src="Images/Ladder1.gif" id="ladder6" class="responsive"/>
+</div>
+		<div id="game-panel-2" class="game-buttons game-panel">
+	<label for="num-players"> Choose number of players: </label>
+  <input id="num-players" type="number" min="1" max="3"><br>
+  <!-- <input id="num-players" type="number" list="options"><br> 
+  <datalist id="options"><option value="1"><option value="2"><option value="3"></datalist> -->
+  <label id= "token-color-label" for="token-color-id"> Player 1 Token Color: </label>
+  <input id="token-color-id" type="color"  value="#ffffff">
+  <br>
+  <label id="token-color2-label" for="token-color2-id"> Player 2 Token Color: </label>
+  <input id="token-color2-id" type="color"  value="#ffffff">
+  <br>
+  <div>
+  <span>
+  <button id="roll-button" class="roll-dice">Dice </button><span id="space"></span>
+  <p id="num-here" class="roll-dice"></p><span id="space"></span><p id="player-text" class="roll-dice"></p><br></span></div>
+
+  <div>
+  <span>
+  <button id="roll-button2" class="roll-dice2">Dice 2</button><span id="space"></span>
+  <p id="num2-here" class="roll-dice2"></p><span id="space"></span> <p id="player2-text" class="roll-dice"></p></span>
+  </div><br></span>
+  
+  <span><button id="restart" class="restart-class">Restart</button>
+  <p id="winner-here" class="restart-class"></p></span>
+  
+</div>
+  </div>
+</foreignObject>
+<!-- <path class="snake" d="M22,282 C 35,271 58,266 81,273 104,280 144,278 145,253 146,228 175,208 193,213 204,198 220,210 220,216 220,222 201,229 193,221 182,222 157,229 156,252 155,275 139,297 86,281 33,268 22,283 22,283 Z" fill="#D15600" />
+  <circle class="eye" cx="210" cy="205" r="5" />
+  <path class="ladders-big" d="M89,574 140,392 M102,578 153,396 " />
+  <path class="ladders-small" d="M91,568 104,573 M94,556 105,561 M97,544 108,549 M100,532 111,537 M103,520 114,525 M107,508 118,513 M111,496 122,501 M114,484 125,489 M117,472 128,477 M121,460 132,465 M124,448 135,453 M128,436 139,441 M131,424 142,429 M134,412 145,417 M138,400 149,405"	/> -->
+</svg>
+    <script src="JS/javascript.js"></script>
+  </body>
+</html>
+
+
