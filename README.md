@@ -29,7 +29,7 @@ HTML , CSS, JavaScript, Flexbox, Scalable Vector Graphics (SVG)
 This game offers 3 options:
 <ul>
 	<li>Option 1 is selected when one player plays a game alone.</li>
-	<li>Option 2 is chisen when two players play and the game ends when one of them wins.</li>
+	<li>Option 2 is chosen when two players play and the game ends when one of them wins.</li>
 	<li>Option 3 is for when one player plays the game with computer.</li>
 </ul>
 So you should choose the number of players accordingly. The choose player input box will be disabled once you choose it.
