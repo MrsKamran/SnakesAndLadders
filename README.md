@@ -9,7 +9,7 @@ Enjoy!
 
 
 
-Technologies Used: HTML , CSS, JavaScript, Scalable Vector Graphics (SVG)
+Technologies Used: HTML , CSS, JavaScript,Flexbox, Scalable Vector Graphics (SVG)
 
 ## Getting Started:
 
