@@ -7,10 +7,10 @@
 Enjoy!
 
 ## Screenshots:
-<br/>
+
 #### Game begins here:
 ![Game start screen](Images/game_start.png)
-<br/>
+
 #### Two Players, one jumped up the ladder and other moved down to snake tail:
 ![Two players playing game at snake and ladder positions](Images/two_players.png)
 
