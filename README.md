@@ -13,19 +13,19 @@ Enjoy!
 <br/>
 #### Two Players, one jumped up the ladder and other moved down to snake tail:
 ![Two players playing game at snake and ladder positions](Images/two_players.png)
-<br/>
+
 #### One player wins:
 ![Winner declared](Images/Winner.png)
-<br/>
+
 ## Technologies Used: 
 HTML , CSS, JavaScript, Flexbox, Scalable Vector Graphics (SVG)
-<br/>
+
 ## Getting Started:
-<br/>
+
 ### Link: https://mrskamran.github.io/SnakesAndLadders/
-<br/>
+
 ### Instructions:
-<br/>
+
 This game offers 3 options:
 <ul>
 	<li>Option 1 is selected when one player plays a game alone.</li>
