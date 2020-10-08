@@ -47,6 +47,8 @@ Following are some enhancements in line:
 <ul>
 	<li>Add a few sounds and pop-ups with snake bites or ladder jumps.</li>
 	<li>Update the boxes so that they look more like squares rather than rectangular tiles.</li>
+	<li>Disable one player's turn when the other is taking turn.</li>
+	<li>Put a default color for player's token color</li>
 </ul>
 
 
