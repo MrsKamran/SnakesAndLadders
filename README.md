@@ -28,9 +28,11 @@ HTML , CSS, JavaScript,Flexbox, Scalable Vector Graphics (SVG)
 ### Instructions:
 
 This game offers 3 options:
-	Option 1 is when one player plays a game alone. 
-	Option 2 is when two players play and the game ends when one of them wins. 
-	Option 3 is when one player plays the game with computer.
+<ol>
+	<li>Option 1 is when one player plays a game alone.</li>
+	<li>Option 2 is when two players play and the game ends when one of them wins.</li>
+	<li>Option 3 is when one player plays the game with computer.</li>
+</ol>
 So you should choose the number of players accordingly. The choose player input box will be disabled once you choose it.
 
 Once the number of players is chosen, you’ll see choose token color option. Choose a color of your liking by clicking on the color palatte. If Option 2 is chosen and there are two players, each one of them can choose a different color. For option three, you’ll choose the color for player’s token and computer will choose a color randomly.
@@ -43,8 +45,10 @@ Once a player’s  token reaches beyond 100th box, that player will win, and gam
 
 ## Planned Future Enhancements:
 Following are some enhancements in line:
-Add a few sounds and pop-ups with snake bites or ladder jumps.
-Update the boxes so that they look more like squares rather than rectangular tiles.
+<ul>
+	<li>Add a few sounds and pop-ups with snake bites or ladder jumps.</li>
+	<li>Update the boxes so that they look more like squares rather than rectangular tiles.</li>
+</ul>
 
 
 
