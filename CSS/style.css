@@ -46,12 +46,6 @@ body{
     font-size: 20px;
 }
 
-#winner-here{
-    font-weight: bold;
-    font-size: 27px;
-    color: #FF00FF;
-}
-
 .roll-dice{
     display: inline;
 }
@@ -219,23 +213,11 @@ body{
  .winner{
     position:absolute;
     z-index: 2;
-    width: 2%;
+    width: 1.5%;
     height: auto;
     visibility: hidden;
-    font-weight: bolder;
-    font-size: 40px;
-    z-index: 4;
-    transform: skewX();
  }
 
- #winner-text{
-   font-weight: bolder;
-   font-size: 70px;
-   z-index: 4;
-   color: blueviolet;
-   position: absolute;
-   visibility: hidden;
- }
 
 
 
