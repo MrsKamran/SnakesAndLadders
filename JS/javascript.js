@@ -175,10 +175,12 @@ function getDiceNumber(){
 }
 
 function pcsTurn(){
+  if(!winner){//If player 1 wins, PC should not take turn
   if(user2Pos === 0){
     player2TokenColor();
   }
   renderPlayer2Token();
+}
 }
 
 function getDice2Number(){//Fot option 3, PC uses most of the functions from player 2
@@ -287,12 +289,12 @@ function checkForWinner(){
         displayWinner('PC');
         winnerSound.play();
       }
-  }
+    }
   //clear player tokens
   clearTokens();
   winner = true;
   hidePanel();
-}
+  }
 }
 
 function clearTokens(){
